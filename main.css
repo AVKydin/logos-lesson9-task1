@@ -1,0 +1,36 @@
+.scroll-down{
+    width: 100%;
+    height: 1000px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 26px;
+    
+}
+
+.scroll-down>p{
+    margin-bottom: 300px;
+}
+
+.slide-left{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(177, 62, 62);
+    display: flex;
+    font-size: 26px;
+    justify-content: space-around;
+    padding-top: 150px; 
+}
+
+.slide-left>img{
+    width: 250px;
+    height: 250px;
+    margin-top: 500px;
+}
+
+.scroll-up{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(41, 9, 9);
+}
