@@ -9,8 +9,15 @@
     
 }
 
-.scroll-down>p{
+.down{
     margin-bottom: 300px;
+    transition-duration: 300ms;
+}
+
+.down:hover{
+    cursor: pointer;
+    color: coral;
+       
 }
 
 .slide-left{
@@ -19,20 +26,23 @@
     background-color: rgb(189, 178, 178);
     display: flex;
     font-size: 26px;
-    justify-content: space-around;
-    padding-top: 150px; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
 }
 
 .slide1{
     height: 30px;
     width: 200px;
     border-bottom: 3px solid red;
+    margin-top: 150px;
+    margin-left: 200px;
 }
 
 .slide-left>img{
     width: 250px;
     height: 250px;
-    margin-top: 200px;
+    margin-top: 250px;
+    margin-right: 200px;
 }
 
 .scroll-up{
@@ -43,4 +53,14 @@
     font-size: 72px;
     justify-content: center;
     align-items: center;
+    
+}
+
+.scroll-up>p{
+   transition: 300ms; 
+}
+
+.scroll-up>p:hover{
+    cursor: pointer;
+    color: coral;
 }
